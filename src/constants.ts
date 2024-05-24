@@ -1,4 +1,4 @@
-import { Percent, V2_FACTORY_ADDRESSES } from '@uniswap/sdk-core'
+import { Percent, V2_FACTORY_ADDRESSES } from 'swifydex-sdk-core'
 import JSBI from 'jsbi'
 
 /**
@@ -8,7 +8,7 @@ export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
 
 export const FACTORY_ADDRESS_MAP: { [chainId: number]: string } = V2_FACTORY_ADDRESSES
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const INIT_CODE_HASH = '0x208991f54aa8b056151b5b0bd97303f662b95498926080b153e6da010b891a59'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
